@@ -1,5 +1,5 @@
 # Attention
-AI predicting a masked word in a text sequence.
+CS50 AI Project 12 - AI predicting a masked word in a text sequence.
 
 ## Instructions
 1. Download this repository to your device.
@@ -18,10 +18,10 @@ ensure to include a masked word [MASK] to be replaced by the AI
 ```bash
 he went to the [MASK] and bought some chips
 ```
-8. Watch the AI create 3 sentences replacing your masked word
+7. Watch the AI create 3 sentences replacing your masked word
 
 ## Background
-This project uses a Language Model (such as the one present in ChatGPT) to predict a “masked” word that is missing from a sentence. BERT is used throughout the project, a transformer-based language model developed by google using 12 layers and 12 heads (total of 144 self-attention heads) to predict the likelihood of a word appearing in a sentence.
+This project uses a Language Model (similar to the one present in ChatGPT) to predict a “masked” word that is missing from a sentence. BERT is used throughout the project, a transformer-based language model developed by google using 12 layers and 12 heads (total of 144 self-attention heads) to predict the likelihood of a word appearing in a sentence.
 
 The programme works by tokenizing each word (giving words ID numbers using BERT) then provides a probability distribution of which words could appear after it. The 3 most likely words are printed by the algorithm, creating 3 complete sentences.
 

@@ -15,7 +15,10 @@ python attention.py
 ```
 6. Follow the prompts by entering a sentence after the text prompt,
 ensure to include a masked word [MASK] to be replaced by the AI
-7. Watch the AI create 3 sentences replacing you rmasked word
+```bash
+he went to the [MASK] and bought some chips
+```
+8. Watch the AI create 3 sentences replacing you rmasked word
 
 ## Background
 This project uses a Language Model (such as the one present in ChatGPT) to predict a “masked” word that is missing from a sentence. BERT is used throughout the project, a transformer-based language model developed by google using 12 layers and 12 heads (total of 144 self-attention heads) to predict the likelihood of a word appearing in a sentence.

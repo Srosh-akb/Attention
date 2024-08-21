@@ -1,5 +1,5 @@
 # Attention
-CS50 AI Project 12 - AI predicting a masked word in a text sequence.
+CS50 AI Project 6b - AI predicting a masked word in a text sequence.
 
 ## Instructions
 1. Download this repository to your device.
